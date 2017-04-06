@@ -22,6 +22,7 @@
         <servlet.api.version>2.5</servlet.api.version>
         <guava.version>20.0</guava.version>
         <joda.time.version>2.9.5</joda.time.version>
+        <cobar.version>1.0.5</cobar.version>
     </properties>
 
     <repositories>
@@ -164,10 +165,18 @@
             <version>${guava.version}</version>
         </dependency>
 
+        <!--joda time-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>${joda.time.version}</version>
+        </dependency>
+
+        <!--cobar-->
+        <dependency>
+            <groupId>com.alibaba.cobar</groupId>
+            <artifactId>cobar-client</artifactId>
+            <version>${cobar.version}</version>
         </dependency>
 
         <!--test-->
